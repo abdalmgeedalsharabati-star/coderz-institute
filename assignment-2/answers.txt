@@ -1,0 +1,7 @@
+1. Home Link Behavior:
+- Destination: Opens in the same browser tab.
+- Effect on origin page: The contact page is replaced/navigated away from in the active tab history.
+
+2. Learning Resource Link Behavior (with target="_blank"):
+- Destination: Opens in a new browser tab/window.
+- Effect on origin page: The contact page remains open, active, and unchanged in its original tab.
