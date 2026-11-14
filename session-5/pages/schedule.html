@@ -22,28 +22,38 @@
         <p>يمكنك الاطلاع على مواعيد انعقاد كورسات هذا الشهر في الجدول التالي:</p>
 
         <table>
+            <caption>مواعيد وعدد ساعات لقاءات الكورسات</caption>
             <thead>
                 <tr>
-                    <th>الكورس</th>
-                    <th>الأيام</th>
-                    <th>الوقت</th>
-                    <th>تاريخ البدء</th>
+                    <th scope="col">الكورس</th>
+                    <th scope="col">اليوم</th>
+                    <th scope="col">عدد الساعات</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>HTML Content</td>
-                    <td>الأحد والثلاثاء</td>
-                    <td>6:00 مساءً - 8:00 مساءً</td>
-                    <td><time datetime="2026-12-01">1 ديسمبر 2026</time></td>
+                    <th scope="rowgroup" rowspan="2">HTML Content</th>
+                    <td>الأحد</td>
+                    <td>2</td>
                 </tr>
                 <tr>
-                    <td>HTML Forms</td>
-                    <td>الإثنين والأربعاء</td>
-                    <td>6:00 مساءً - 8:00 مساءً</td>
-                    <td><time datetime="2026-12-07">7 ديسمبر 2026</time></td>
+                    <td>الثلاثاء</td>
+                    <td>3</td>
                 </tr>
             </tbody>
+            <tbody>
+                <tr>
+                    <th scope="row">HTML Forms</th>
+                    <td>الخميس</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row" colspan="2">مجموع الساعات</th>
+                    <td>9</td>
+                </tr>
+            </tfoot>
         </table>
     </main>
 
