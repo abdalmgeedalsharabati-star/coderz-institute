@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معهد coderz - الاستفسار عن الكورسات</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">الرئيسية</a></li>
+                <li><a href="schedule.html">المواعيد</a></li>
+                <li><a href="enquiry.html">الاستفسار</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>الاستفسار عن الكورسات</h1>
+        <p>إذا كنت ترغب في الاستفسار عن الكورس المناسب لك، يرجى تعبئة النموذج التالي:</p>
+
+        <form action="#" method="post">
+            <p>
+                <label for="visitor-name">الاسم الكامل:</label><br>
+                <input type="text" id="visitor-name" name="visitor_name" required>
+            </p>
+            <p>
+                <label for="visitor-email">البريد الإلكتروني:</label><br>
+                <input type="email" id="visitor-email" name="visitor_email" required>
+            </p>
+            <p>
+                <label for="course-select">الكورس المطلوب:</label><br>
+                <select id="course-select" name="course">
+                    <option value="html-content">HTML Content</option>
+                    <option value="html-forms">HTML Forms</option>
+                </select>
+            </p>
+            <p>
+                <label for="visitor-message">الاستفسار:</label><br>
+                <textarea id="visitor-message" name="message" rows="4" cols="40" required></textarea>
+            </p>
+            <p>
+                <button type="submit">إرسال الاستفسار</button>
+            </p>
+        </form>
+    </main>
+
+</body>
+</html>
