@@ -1,0 +1,9 @@
+قيم href التي تربط ملف CSS من كل صفحة:
+- index.html: styles.css
+- pages/courses.html: ../styles.css
+
+الـ Selector الذي ينسّق حالة الكورس المكتمل:
+.course-card[data-status="full"] .status
+
+شرح أي عنصر يطابقه بالضبط:
+يطابق هذا الـ Selector عنصر <span class="status"> الموجود داخل عنصر <article class="course-card"> الذي يحمل السمة data-status="full" فقط، لذلك تُطبَّق الخلفية الرمادية على نص الحالة (اكتمل العدد) دون التأثير على خلفية البطاقة نفسها أو على فقرة الوصف <p>.
